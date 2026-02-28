@@ -188,7 +188,7 @@ function SeaSaltProduction() {
               className="absolute top-4 right-4 text-yellow-400 transition-opacity duration-300 z-10"
               style={{ opacity: 0.2 + (evaporation / 100) * 0.8 }}
             >
-              <Sun className="w-8 h-8 animate-spin-slow" />
+              <Sun className="w-8 h-8 animate-spin" />
             </div>
 
             <div 
@@ -477,6 +477,9 @@ function Conclusion() {
         <div className="text-center pt-8 border-t border-slate-900">
           <p className="text-sm text-slate-500 font-mono">
             Built with Next.js for High School Chemistry Project
+          </p>
+          <p className="text-sm text-slate-400 mt-2 font-medium">
+            署名：陆博仁
           </p>
         </div>
       </div>
